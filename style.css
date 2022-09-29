@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.signeture{
+  width: 300px;
+  height: 470px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0, 0, 0, 0.5;
+  background: #ebebea;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.header{
+  background: #ebebea;
+}
+.image{
+  text-align: center;
+  margin-top: 20px;
+}
+.image img{
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.information{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+.social-links{
+  margin-top: 30px;
+  text-align: center;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li:nth-child(1){
+  margin-left: -40px !important;
+}
+nav ul li:nth-child(2){
+  margin-left: 10px;
+}
+nav ul li:nth-child(3){
+  margin-left: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+p{
+  display: block;
+  text-align: center;
+  margin-top: -10px;
+}
+#adrs{
+  color: green;
+}
